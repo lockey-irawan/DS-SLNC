@@ -10,7 +10,7 @@ public class LinkedList {
         head = tail = null; // it means empty list
     }
 
-    // func
+    // functions
 
     public boolean isEmpty() {
         return head == null;

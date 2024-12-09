@@ -1,11 +1,11 @@
 public class Node {
 
-    // attr
+    // attributes
 
     public int value;
     public Node next;
 
-    // constr
+    // constructor
 
     public Node() {
         next = null;
@@ -16,7 +16,7 @@ public class Node {
         next = null;
     }
 
-    // func
+    // function
 
     public String toString() {
         return value + "";
